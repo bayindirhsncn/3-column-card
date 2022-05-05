@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.2rem;
+    -webkit-box-shadow: 0px 0px 30px -2px rgba(0, 136, 255, 1);
+    -moz-box-shadow: 0px 0px 30px -2px rgba(0, 136, 255, 1);
+    box-shadow: 0px 0px 30px -2px rgba(0, 136, 255, 1);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3rem 2.625rem 2rem 3rem;
+    height: 500px;
+    width: 350px;
+}
+
+.card-sedan button:hover {
+    cursor: pointer;
+    color: White;
+    background-color: transparent;
+    transform: translateY(-6px);
+}
+
+.card-suv button:hover {
+    cursor: pointer;
+    color: White;
+    background-color: transparent;
+    transform: translateY(-6px);
+}
+
+.card-luxury button:hover {
+    cursor: pointer;
+    color: White;
+    background-color: transparent;
+    transform: translateY(-6px);
+}
+
+section:first-child {
+    border-radius: 1rem 0 0 1rem;
+}
+
+section:last-child {
+    border-radius: 0 1rem 1rem 0;
+}
+
+.card-sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-sedan h2 {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.325rem;
+    color: hsl(0, 0%, 95%);
+    padding: 1em 0 1em 0;
+}
+
+.card-sedan p {
+    line-height: 1.325rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 0 4em 7em 0;
+}
+
+.card-sedan button {
+    width: 160px;
+    height: 50px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+    -webkit-box-shadow: 0px 9px 9px -4px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 9px 9px -4px rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 9px 9px -4px rgba(0, 0, 0, 0.65);
+}
+
+.card-suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-suv h2 {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.325rem;
+    color: hsl(0, 0%, 95%);
+    padding: 1em 0 1em 0;
+}
+
+.card-suv p {
+    line-height: 1.325rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 0 3em 7em 0;
+}
+
+.card-suv button {
+    width: 160px;
+    height: 50px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+    -webkit-box-shadow: 0px 9px 9px -4px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 9px 9px -4px rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 9px 9px -4px rgba(0, 0, 0, 0.65);
+}
+
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.card-luxury h2 {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.325rem;
+    color: hsl(0, 0%, 95%);
+    padding: 1em 0 1em 0;
+}
+
+.card-luxury p {
+    line-height: 1.325rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 0 3em 7em 0;
+}
+
+.card-luxury button {
+    width: 160px;
+    height: 50px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    color: hsl(179, 100%, 13%);
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+    -webkit-box-shadow: 0px 9px 9px -4px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 9px 9px -4px rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 9px 9px -4px rgba(0, 0, 0, 0.65);
+}
+
+footer {
+    padding-top: 1em;
+}
+
+.attribution {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        font-family: 'Big Shoulders Display', cursive;
+        font-family: 'Lexend Deca', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        background-color: hsl(0, 0%, 95%);
+        height: 100%;
+        margin: 6em 0 6em 0;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section:first-child {
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    section:last-child {
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 3rem 2.625rem 2rem 3rem;
+        height: 450px;
+        width: 350px;
+    }
+
+    .card-sedan p {
+        padding: 0 3em 3em 0;
+    }
+
+    .card-suv p {
+        padding: 0 3em 3em 0;
+    }
+
+    .card-luxury p {
+        padding: 0 3em 3em 0;
+    }
+}
